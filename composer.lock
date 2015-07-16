@@ -1,17 +1,22 @@
 {
-    "hash": "f0ee609f3432252c6d3294f592159a73",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c322471c5922232c5680c6fd5e943894",
     "packages": [
         {
             "name": "nikic/php-parser",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser",
+                "url": "https://github.com/nikic/PHP-Parser.git",
                 "reference": "222c9612ab9c65551b7febd38cbb0fa685b0e0db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/nikic/PHP-Parser/archive/222c9612ab9c65551b7febd38cbb0fa685b0e0db.zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/e0a75ededaecccee2f083f951f4611ef95f6a562",
                 "reference": "222c9612ab9c65551b7febd38cbb0fa685b0e0db",
                 "shasum": ""
             },
@@ -19,7 +24,6 @@
                 "php": ">=5.2"
             },
             "type": "library",
-            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "PHPParser": "lib/"
@@ -35,19 +39,23 @@
             ],
             "description": "A PHP parser written in PHP",
             "keywords": [
-                "php",
-                "parser"
+                "parser",
+                "php"
             ],
-            "time": "1356092915"
+            "time": "2012-12-21 12:28:35"
         }
     ],
     "packages-dev": null,
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "nikic/php-parser": 20,
         "php/php-src": 20
-    }
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
 }

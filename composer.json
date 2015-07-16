@@ -1,4 +1,7 @@
 {
+    "name": "ircmaxell/phpphp",
+    "license": "MIT",
+    "description": "A PHP VM implementation in PHP",
     "repositories": [
         {
             "type": "package",
